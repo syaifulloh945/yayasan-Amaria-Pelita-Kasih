@@ -17,7 +17,7 @@ Tidak ada fitur donasi. Semua tombol aksi membuka WhatsApp 0853-7100-0076 dengan
 - Tombol besar, kontras tinggi, nomor telepon dan e-mail selalu terlihat di atas.
 
 ## Yang perlu dicek sebelum online
-- **E-mail**: dipakai `yayasanamariapelitakasih@gmail.com` (dari draft Profil YAPK). Company profile PDF menulis `amariapelitakasih@gmail.com`. Pastikan mana yang benar, lalu cari-ganti di `index.html`.
-- **Facebook**: belum ada alamat halaman resmi, jadi link mengarah ke pencarian "Amaria Pelita Kasih". Ganti dengan URL fanspage jika sudah ada.
+- **E-mail** resmi: `yayasanamariapelitakasih@gmail.com` (sudah dikonfirmasi pengurus).
+- **Facebook**: halaman "Amaria Pelita Kasih". Link membuka pencarian Facebook dengan nama itu; ganti dengan URL langsung halaman (facebook.com/...) bila sudah ada.
 - **Angka capaian** (50 penerima, 22 program berjalan) diambil dari company profile; perbarui di bagian `#dampak` bila berubah.
 - Keterangan foto dibuat umum (tanpa nama penerima). Pastikan keluarga penerima manfaat sudah memberi izin fotonya ditampilkan.
