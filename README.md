@@ -3,7 +3,7 @@
 Satu file `index.html` (HTML, CSS, dan JavaScript jadi satu) + folder `assets/img`. Tanpa proses build, bisa langsung di-upload ke hosting apa pun (Vercel, Netlify, GitHub Pages, cPanel).
 
 ## Isi halaman
-Beranda · Kata Pengantar + Informasi Yayasan · Latar Belakang · Visi & Misi · 4 Pilar "Teman" · 4 Program Penerima Manfaat · Cara Kami Bekerja · Dampak & Kolaborasi · Galeri kunjungan tim (bisa diperbesar) · Filosofi Logo · Legalitas & Struktur · Kerja Sama · Tanya Jawab · Kontak + peta.
+Beranda · Kata Pengantar + Informasi Yayasan · Latar Belakang · Visi & Misi · 4 Pilar "Teman" · 4 Program Penerima Manfaat · Cara Kami Bekerja · Dampak & Kolaborasi · Galeri kunjungan tim (bisa diperbesar) · Struktur Pengurus · Legalitas · Kerja Sama · Tanya Jawab · Kontak + peta.
 
 Foto yang dipakai hanya foto kunjungan tim dan foto penerima manfaat yang layak tampil. Foto anak tanpa pakaian layak, foto terlalu intim, foto dengan subjek terlalu kecil atau berisi merek toko sengaja tidak dipakai.
 
