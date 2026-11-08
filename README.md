@@ -13,7 +13,6 @@ Tidak ada fitur donasi. Semua tombol aksi membuka WhatsApp 0853-7100-0076 dengan
 
 ## Ramah pembaca dewasa
 - Teks dasar 18px dengan font Atkinson Hyperlegible (dirancang untuk keterbacaan) + Literata untuk judul.
-- Tombol ukuran teks A / A+ / A++ di bar paling atas (pilihan pengunjung diingat di browsernya).
 - Tombol besar, kontras tinggi, nomor telepon dan e-mail selalu terlihat di atas.
 
 ## Yang perlu dicek sebelum online
