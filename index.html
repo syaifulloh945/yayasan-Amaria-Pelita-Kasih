@@ -297,7 +297,25 @@ p{margin:0 0 1em}
 .t2 .m-side::before{content:""; position:absolute; top:50%; left:calc(var(--g) * -1 - 1px); width:var(--g); border-top:2px dashed var(--ln)}
 .t3::before{content:""; position:absolute; top:-18px; left:calc(50% - (var(--w) + var(--g))/2); width:calc(var(--w) + var(--g)); height:2px; background:var(--ln)}
 .t3 .member::before{content:""; position:absolute; top:-19px; left:50%; width:2px; height:18px; background:var(--ln)}
-.org-note{max-width:740px; margin:36px auto 0; text-align:center; font-size:.92rem; color:var(--muted)}
+.ops{margin-top:clamp(56px,7vw,88px); padding-top:clamp(48px,6vw,72px); border-top:1px solid var(--line)}
+.ops .head{margin-bottom:32px}
+.ops-lead{display:flex; align-items:center; gap:16px; background:#fff; border:1px solid var(--line); border-top:4px solid var(--teal); border-radius:var(--radius-lg); padding:20px 24px; max-width:420px; margin:0 auto; box-shadow:var(--shadow)}
+.ops-lead .av,.mini .av{border-radius:50%; flex:none; display:grid; place-items:center; color:#fff; font-weight:700}
+.ops-lead .av{width:56px; height:56px}
+.ops-lead small,.mini small{display:block; font-size:.72rem; letter-spacing:.12em; text-transform:uppercase; font-weight:700; color:var(--orange-ink)}
+.ops-lead b{display:block; font-family:var(--serif); color:var(--navy); font-size:1.15rem; line-height:1.3}
+.ops-group{margin-top:32px}
+.ops-group h3{text-align:center; font-size:1.05rem; margin-bottom:14px; color:var(--muted); font-family:var(--sans); letter-spacing:.12em; text-transform:uppercase}
+.ops-grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; max-width:960px; margin:0 auto}
+.ops-grid.four{grid-template-columns:repeat(4,minmax(0,1fr)); max-width:1100px}
+.mini{display:flex; align-items:center; gap:12px; background:#fff; border:1px solid var(--line); border-radius:var(--radius); padding:14px 16px; min-width:0}
+.mini .av{width:44px; height:44px; font-size:.85rem}
+.mini b{display:block; font-family:var(--serif); color:var(--navy); line-height:1.3; overflow-wrap:anywhere}
+.vol{list-style:none; margin:0 auto; padding:0; display:flex; flex-wrap:wrap; justify-content:center; gap:10px; max-width:900px}
+.vol li{background:#fff; border:1px solid var(--line); border-radius:999px; padding:8px 16px; font-weight:700; color:var(--navy); font-size:.92rem}
+@media (max-width:1000px){.ops-grid.four{grid-template-columns:repeat(2,minmax(0,1fr)); max-width:640px}}
+@media (max-width:760px){.ops-grid{grid-template-columns:minmax(0,1fr); max-width:480px}.ops-grid.four{grid-template-columns:repeat(2,minmax(0,1fr)); max-width:560px}}
+@media (max-width:480px){.ops-grid.four{grid-template-columns:minmax(0,1fr)}.ops-lead{padding:16px}}
 @media (max-width:1040px){.tree{--w:260px; --g:18px}}
 @media (max-width:900px){
   .tree{max-width:560px}
@@ -791,7 +809,41 @@ footer a:hover{color:var(--amber)}
         </article>
       </div>
     </div>
-    <p class="org-note reveal">Dalam menjalankan program di lapangan, pengurus dibantu oleh relawan dan mitra yang bergerak bersama sebagai Teman Amaria.</p>
+    <div class="ops">
+      <div class="head center reveal">
+        <span class="kicker">Tim Operasional</span>
+        <h2>Tim yang bergerak di lapangan</h2>
+        <p class="lead">Dalam menjalankan program sehari-hari, pengurus dibantu oleh tim operasional, koordinator, dan relawan yang bergerak bersama sebagai Teman Amaria.</p>
+      </div>
+      <div class="ops-lead reveal">
+        <span class="av" style="background:var(--teal)">RA</span>
+        <div><small>Ketua Tim Operasional</small><b>Renno Agus Susanto, S.T., M.M.</b></div>
+      </div>
+      <div class="ops-group reveal">
+        <h3>Staf</h3>
+        <div class="ops-grid">
+          <div class="mini"><span class="av" style="background:var(--teal-2)">WI</span><div><small>Staf Administrasi</small><b>Winda Istiana, S.T.</b></div></div>
+          <div class="mini"><span class="av" style="background:var(--orange)">NF</span><div><small>Content Creator</small><b>Nadia Firdausi Ahla</b></div></div>
+          <div class="mini"><span class="av" style="background:var(--plum)">RS</span><div><small>Staf Administrasi Umum</small><b>Rama Sona, S.Kom.</b></div></div>
+        </div>
+      </div>
+      <div class="ops-group reveal">
+        <h3>Koordinator</h3>
+        <div class="ops-grid four">
+          <div class="mini"><span class="av" style="background:var(--leaf)">MR</span><div><small>Koordinator</small><b>Muhammad Romdan</b></div></div>
+          <div class="mini"><span class="av" style="background:var(--leaf)">N</span><div><small>Koordinator</small><b>Ninuk</b></div></div>
+          <div class="mini"><span class="av" style="background:var(--leaf)">A</span><div><small>Koordinator</small><b>Asmila</b></div></div>
+          <div class="mini"><span class="av" style="background:var(--leaf)">R</span><div><small>Koordinator</small><b>Rahman</b></div></div>
+        </div>
+      </div>
+      <div class="ops-group reveal">
+        <h3>Relawan</h3>
+        <ul class="vol">
+          <li>Dwi Andika</li><li>Fitri Handayani</li><li>Surmini</li><li>Rangga Setiawan</li><li>Olva Noviana</li><li>Rohmawati</li>
+          <li>Murni Kurnia</li><li>Andi Saputra</li><li>Rudi Hartono</li><li>Putri</li><li>Resta</li><li>Ajeng</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>
 
